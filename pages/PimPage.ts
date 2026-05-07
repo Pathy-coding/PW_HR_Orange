@@ -40,6 +40,5 @@ export class PimPage {
     this.page.getByRole('textbox', { name: 'Last Name' })
   ).toHaveValue(last);
 
-  // Another comment
 }
 }
