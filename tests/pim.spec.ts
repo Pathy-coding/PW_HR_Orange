@@ -14,4 +14,6 @@ test('Add Employee', async ({ page }) => {
   await pim.navigate();
   await pim.addEmployee('Jane', 'Doe');
   await pim.verifyEmployeeCreated('Jane','Doe');
+
+  // Additional comment
 });
