@@ -39,5 +39,7 @@ export class PimPage {
   await expect(
     this.page.getByRole('textbox', { name: 'Last Name' })
   ).toHaveValue(last);
+
+  // Another comment
 }
 }
